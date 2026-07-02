@@ -14,10 +14,10 @@ function Hero() {
           </h1>
           <input placeholder="Eg. how do I activate F&O" />
           <br />
-          <a href="">Track account opening</a>
-          <a href="">Track segment activation</a>
-          <a href="">Intraday margins</a>
-          <a href="">Kite user manual</a>
+          <a href="/">Track account opening</a>
+          <a href="/">Track segment activation</a>
+          <a href="/">Intraday margins</a>
+          <a href="/">Kite user manual</a>
         </div>
         <div className="col-6 p-3">
           <h1 className="fs-3">Featured</h1>
