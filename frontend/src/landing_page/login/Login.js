@@ -16,7 +16,7 @@ function Login() {
 
     try {
       await axios.post(
-        "http://localhost:3002/auth/login",
+        "https://zerodha-backend-k54v.onrender.com//auth/login",
         { email, password },
         { withCredentials: true }
       );
