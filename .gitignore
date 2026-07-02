@@ -1,0 +1,19 @@
+# Environment variables
+.env
+**/.env
+
+# Node modules
+/backend/node_modules
+/frontend/node_modules
+/dashboard/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build folders
+/frontend/build
+/dashboard/build
+/frontend/dist
+/dashboard/dist
