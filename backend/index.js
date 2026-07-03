@@ -35,14 +35,22 @@ app.use(cors({
 app.use(bodyParser.json());
 
 // Session FIRST
+app.set("trust proxy", 1);
+
 app.use(
   session({
     secret: "zerodha_secret_key",
     resave: false,
     saveUninitialized: false,
+    proxy: true,
+    cookie: {
+      secure: true,
+      sameSite: "none",
+      httpOnly: true,
+      maxAge: 1000 * 60 * 60 * 24,
+    },
   })
 );
-
 // Passport AFTER session
 app.use(passport.initialize());
 app.use(passport.session());
