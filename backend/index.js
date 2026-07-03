@@ -18,7 +18,7 @@ const ensureAuthenticated=require("./middleware/auth");
 const PORT = process.env.PORT || 3002;
 const uri = process.env.MONGO_URL;
 
-const allowedOrigins = ["http://localhost:3000", "http://localhost:3001"];
+const allowedOrigins = ["http://localhost:3000", "https://zerodha-clone-7wef.onrender.com"];
 
 
 app.use(cors({
