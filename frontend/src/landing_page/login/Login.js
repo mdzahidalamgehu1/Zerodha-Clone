@@ -21,7 +21,7 @@ function Login() {
         { withCredentials: true }
       );
 
-      window.location.href = "http://localhost:3001";
+      window.location.href = "https://zerodha-clone-dashboard-kw8m.onrender.com";
 
     } catch (err) {
       console.log(err.response);

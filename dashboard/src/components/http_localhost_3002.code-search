@@ -1,0 +1,19 @@
+# Query: http://localhost:3002
+# ContextLines: 1
+
+3 results - 3 files
+
+dashboard\src\components\BuyActionWindow.js:
+  15      axios.post(
+  16:       "https://zerodha-backend-k54v.onrender.com/newOrder",
+  17        {
+
+dashboard\src\components\Holdings.js:
+  10    useEffect(() => {
+  11:     axios.get("https://zerodha-backend-k54v.onrender.com/allHoldings", {
+  12        withCredentials: true,
+
+dashboard\src\components\Home.js:
+  11      axios
+  12:       .get("https://zerodha-backend-k54v.onrender.com/auth/user", {
+  13          withCredentials: true,

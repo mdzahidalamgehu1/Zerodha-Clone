@@ -24,7 +24,7 @@ function Signup() {
 
     try {
       const res = await axios.post(
-        "http://localhost:3002/auth/register",
+        "https://zerodha-backend-k54v.onrender.com/auth/register",
         formData
       );
 

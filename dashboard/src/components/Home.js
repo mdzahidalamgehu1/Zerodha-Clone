@@ -9,7 +9,7 @@ const Home = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3002/auth/user", {
+      .get("https://zerodha-backend-k54v.onrender.com/auth/user", {
         withCredentials: true,
       })
       .then((res) => {
