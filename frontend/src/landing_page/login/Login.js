@@ -16,7 +16,7 @@ function Login() {
 
     try {
       await axios.post(
-        "https://zerodha-backend-k54v.onrender.com//auth/login",
+        "https://zerodha-backend-k54v.onrender.com/auth/login",
         { email, password },
         { withCredentials: true }
       );
