@@ -16,7 +16,7 @@ const Home = () => {
         setUser(res.data);
       })
       .catch(() => {
-        window.location.href = "http://localhost:3000/login";
+        window.location.href = "https://zerodha-clone-7wef.onrender.com/login";
       });
   }, []);
 
